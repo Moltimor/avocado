@@ -32,25 +32,32 @@ Esta subida se ve reflejada si graficamos el precio medio respecto al año, pero
 
 ## Gráficos para Visualización de Datos
 
-Se puede observar que hay una diferencia de volumen de ventas por región. Una de las razones es la cantidad de áreas que abarca esas regiones y consecuentemente la población total de cada región. 
+Se puede observar que hay una diferencia de volumen de ventas por región. Una de las razones es la cantidad de áreas que abarca esas regiones y consecuentemente la población total de cada región.
+
 ![image](https://github.com/user-attachments/assets/e6b108dd-a646-48d6-9245-34e6370c01ce)
 
 El precio promedio ha variado a lo largo de los años, teniendo como valor máximo en 2017 y mínimo 2016. Sin embargo, los datos muestran que la evolución del precio promedio ha sido suave.
+
 ![image](https://github.com/user-attachments/assets/cc9301c4-4510-4e1c-816c-6ad39d398fc4)
 
 Mayoritariamente, la región de "California", "Northest", y "West", tuvo un mayor precio promedio a lo largo de los años.
+
 ![image](https://github.com/user-attachments/assets/372bc161-dd85-4ba2-b3c1-3293a05b3d72)
 
 La frecuencia de volumen de ventas por cada una de las regiones es similar en valores bajos, pero tiende a resaltar algunas regiones ("California", "SouthCentral", y "West") cuando el volumen de ventas aumenta. Esto es coherente con la primera gráfica.
+
 ![image](https://github.com/user-attachments/assets/cd8ce721-1313-4968-ba9a-96c5e936db46)
 
-El tipo de aguacate convencional tiene mayor volumen de ventas comparado con el orgánico. 
+El tipo de aguacate convencional tiene mayor volumen de ventas comparado con el orgánico.
+
 ![image](https://github.com/user-attachments/assets/54ead810-5e0f-400f-8f95-33df3ac398a9)
 
 Las ventas de acuerdo con el tipo de bolsa van de mayor a menor, en el siguiente orden: pequeñas, grandes, y extragrandes. Este orden también es por región.
+
 ![image](https://github.com/user-attachments/assets/63245519-151a-4e17-a8ec-d106216554cc)
 
 El precio promedio tuvo una baja en el 2016 y el pico en 2017. Con respecto al siguiente año, 2018 no tiene datos completos. Por región, la tendencia se mantiene a excepción de "Northeast", "Midsouth", y "California", donde en el 2016 el precio promedio subió a comparación del anterior año. En el caso de las otras regiones, el precio promedio bajó en comparación con el año previo.
+
 ![image](https://github.com/user-attachments/assets/4573e498-c2fd-451b-b54b-fca10b545a53)
 
 ## Elasticidad del Precio
@@ -90,19 +97,27 @@ Aquí podemos confirmar que los valores más altos de elasticidad los obtenemos 
 ## Análisis de Cohortes
 
 Se observa que, por trimestres, el precio promedio es inversamente proporcional al volumen de ventas. Mientras el precio promedio sube, el volumen de ventas baja. El pico del precio promedio se encuentra en Q3 (Julio, Agosto, y Septiembre) del 2017 y el trimestre que menos volumen de ventas se tuvo fue Q4 (Octubre, Noviembre, y Diciembre) del 2016. La dinámica no cambia mucho por regiones ni tampoco por tipo de aguacate, “conventional” y “organic”.
+
 ![image](https://github.com/user-attachments/assets/febf3461-44a1-4f88-b7c3-96b105a03220)
+
 ![image](https://github.com/user-attachments/assets/8790a5b6-0362-4f2a-8235-f8cc30324506)
+
 ![image](https://github.com/user-attachments/assets/5be7db6f-364f-4464-825a-addef524c1fd)
+
 ![image](https://github.com/user-attachments/assets/5c3dde55-0ecd-4186-8a77-0968f25e3eec)
+
 ![image](https://github.com/user-attachments/assets/68837276-6646-4a73-8512-c90ba81e6ca5)
 
 Por tipo de bolsa se observa que el volumen de ventas ha variado durante tiempo, pero manteniendo una relación entre los tres tipos de bolsas. El tipo de bolsa que mayor variabilidad ha tenido es la pequeña.
+
 ![image](https://github.com/user-attachments/assets/fc17b49e-65fb-423e-ab65-aaaf156c9d65)
 
 En cuanto al comportamiento de compra, considerando el promedio de volumen total de ventas la cohorte de clientes baja ha aumentado su porcentaje de compra a lo largo de los años, mientras que la mediana se ha disminuido, y la cohorte alta se ha mantenido.
+
 ![image](https://github.com/user-attachments/assets/32a7361e-a418-4aac-b830-bccfdc18b86b)
 
 Las retenciones de ventas por año tienen un patrón similar, las ventas son menos al final de año a comparación que al inicio. Uno de los mayores declives fue en el año 2016. Por otro lado, los dos primeros años, 2015 y 2016, tienen un patrón similar en los meses de mayo y junio donde el porcentaje de retención tuvo una subida máxima a comparación con el primer mes del año.
+
 ![image](https://github.com/user-attachments/assets/5b43e2b0-c530-4324-aa10-bc11d2eb9ffc)
 
 ## Análisis de Correlación y Regresión
