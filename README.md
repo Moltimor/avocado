@@ -4,11 +4,11 @@
 
 ### Integrantes
 
--Elvis Ortega
+- Elvis Ortega-Ochoa
 
--Jordi Via
+- Jordi Via
 
--Manuel Garcia
+- Manuel Garcia
 
 ### Planeación del proyecto
 
@@ -17,6 +17,32 @@ https://trello.com/b/yINYmvhD/avocado-project
 ## Introducción
 
 Más que seguir al pie de la letra lo que piden los enunciados hemos intentado, con el poco conocimiento que tenemos, buscar rutas alternativas para confirmar o desmentir hipótesis que hemos estado lanzando. Estas hipótesis las iremos enunciando en las secciones correspondientes.
+
+De acuerdo a la fuente oficial de la base de datos de avocado (Hass Avocado Board - https://hassavocadoboard.com/), la distribución es de regiones y áreas de regiones es la siguiente:
+
+General:
+‘TotalUS’
+
+Regions:
+'California' 'GreatLakes'  'Midsouth' 'Northeast' 'Plains' 'SouthCentral' 'Southeast' 'West'
+
+Area per Regions:
+
+Total U.S. (2024) – Northeast: 'Albany' 'Boston'  'BuffaloRochester'  'HarrisburgScranton' 'HartfordSpringfield' 'NewYork'  'NorthernNewEngland' 'Philadelphia' 'Pittsburgh' 'Syracuse'
+
+Total U.S. (2024) – Midsouth: 'BaltimoreWashington' Charlotte' 'Louisville' 'Nashville' 'RaleighGreensboro' 'RichmondNorfolk' 'Roanoke'
+
+Total U.S. (2024) – Southeast: 'Atlanta'  'Jacksonville' 'MiamiFtLauderdale' 'Orlando'  'SouthCarolina'  'Tampa'
+
+Total U.S. (2024) - Great Lakes: 'Chicago' 'CincinnatiDayton' 'Columbus' 'Detroit' 'GrandRapids' 'Indianapolis'
+
+Total U.S. (2024) – Plains: 'StLouis'
+
+Total U.S. (2024) - South Central: 'DallasFtWorth' 'Houston' 'NewOrleansMobile'
+
+Total U.S. (2024) – West: 'Boise' 'Denver' 'LasVegas' 'PhoenixTucson'  'Portland' 'Seattle' 'Spokane' 'WestTexNewMexico'
+
+Total U.S. (2024) – California: 'LosAngeles' 'Sacramento' 'SanDiego' 'SanFrancisco'
 
 ## Análisis de Series Temporales
 
@@ -33,6 +59,24 @@ Esta subida se ve reflejada si graficamos el precio medio respecto al año, pero
 ## Gráficos para Visualización de Datos
 
 Se puede observar que hay una diferencia de volumen de ventas por región. Una de las razones es la cantidad de áreas que abarca esas regiones y consecuentemente la población total de cada región.
+
+These estimates are based on the U.S. Census Bureau's data as of July 1, 2023 (https://www.census.gov).
+
+California: 39,237,836
+
+GreatLakes: 46,536,266
+
+Midsouth: 11,481,054
+
+Northeast: 57,159,838
+
+Plains: 20,489,920
+
+SouthCentral: 40,777,241
+
+Southeast: 66,732,931
+
+West: 78,896,805
 
 ![image](https://github.com/user-attachments/assets/e6b108dd-a646-48d6-9245-34e6370c01ce)
 
@@ -54,7 +98,7 @@ El tipo de aguacate convencional tiene mayor volumen de ventas comparado con el 
 
 Las ventas de acuerdo con el tipo de bolsa van de mayor a menor, en el siguiente orden: pequeñas, grandes, y extragrandes. Este orden también es por región.
 
-![image](https://github.com/user-attachments/assets/63245519-151a-4e17-a8ec-d106216554cc)
+![image](https://github.com/user-attachments/assets/2801d1aa-b2e5-4f52-ac32-04b0c02d1b3e)
 
 El precio promedio tuvo una baja en el 2016 y el pico en 2017. Con respecto al siguiente año, 2018 no tiene datos completos. Por región, la tendencia se mantiene a excepción de "Northeast", "Midsouth", y "California", donde en el 2016 el precio promedio subió a comparación del anterior año. En el caso de las otras regiones, el precio promedio bajó en comparación con el año previo.
 
@@ -98,26 +142,28 @@ Aquí podemos confirmar que los valores más altos de elasticidad los obtenemos 
 
 Se observa que, por trimestres, el precio promedio es inversamente proporcional al volumen de ventas. Mientras el precio promedio sube, el volumen de ventas baja. El pico del precio promedio se encuentra en Q3 (Julio, Agosto, y Septiembre) del 2017 y el trimestre que menos volumen de ventas se tuvo fue Q4 (Octubre, Noviembre, y Diciembre) del 2016. La dinámica no cambia mucho por regiones ni tampoco por tipo de aguacate, “conventional” y “organic”.
 
+Noticias sobre lo que pasó en 2017 (agosto, septiembre y octubre) con la subida del aguacate: Avocado prices have soared 125% this year (https://money.cnn.com/2017/09/09/news/economy/avocado-prices-soar/index.html) Situación de Mexico durante el 2017 (https://en.wikipedia.org/wiki/2017_in_Mexico): el gasolinazo (Enero) y huracanes y terremotos (Julio a Septiembre).
+
 ![image](https://github.com/user-attachments/assets/febf3461-44a1-4f88-b7c3-96b105a03220)
 
-![image](https://github.com/user-attachments/assets/8790a5b6-0362-4f2a-8235-f8cc30324506)
+![image](https://github.com/user-attachments/assets/053f9795-9553-490a-851b-dcb9e95ed496)
 
-![image](https://github.com/user-attachments/assets/5be7db6f-364f-4464-825a-addef524c1fd)
+![image](https://github.com/user-attachments/assets/fb47eab9-17f5-4f9d-8ed2-99f1fb71d29e)
 
-![image](https://github.com/user-attachments/assets/5c3dde55-0ecd-4186-8a77-0968f25e3eec)
+![image](https://github.com/user-attachments/assets/14bcc050-49e4-4afb-835d-f6592d1c3ce4)
 
-![image](https://github.com/user-attachments/assets/68837276-6646-4a73-8512-c90ba81e6ca5)
+![image](https://github.com/user-attachments/assets/83fafae5-96e4-4652-80fc-90b6a9a77da7)
 
 Por tipo de bolsa se observa que el volumen de ventas ha variado durante tiempo, pero manteniendo una relación entre los tres tipos de bolsas. El tipo de bolsa que mayor variabilidad ha tenido es la pequeña.
 
-![image](https://github.com/user-attachments/assets/fc17b49e-65fb-423e-ab65-aaaf156c9d65)
+![image](https://github.com/user-attachments/assets/81466be7-add9-497f-ab67-2db07c9ac601)
 
 En cuanto al comportamiento de compra, considerando el promedio de volumen total de ventas la cohorte de clientes baja ha aumentado su porcentaje de compra a lo largo de los años, mientras que la mediana se ha disminuido, y la cohorte alta se ha mantenido.
 
-![image](https://github.com/user-attachments/assets/32a7361e-a418-4aac-b830-bccfdc18b86b)
+![image](https://github.com/user-attachments/assets/7359b718-0724-4b66-a686-78b34954bf8d)
 
 Las retenciones de ventas por año tienen un patrón similar, las ventas son menos al final de año a comparación que al inicio. Uno de los mayores declives fue en el año 2016. Por otro lado, los dos primeros años, 2015 y 2016, tienen un patrón similar en los meses de mayo y junio donde el porcentaje de retención tuvo una subida máxima a comparación con el primer mes del año.
 
-![image](https://github.com/user-attachments/assets/5b43e2b0-c530-4324-aa10-bc11d2eb9ffc)
+![image](https://github.com/user-attachments/assets/dc8075cf-6501-4ebf-9a38-9d717522742c)
 
 ## Análisis de Correlación y Regresión
